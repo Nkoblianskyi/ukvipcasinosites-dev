@@ -33,13 +33,13 @@ const organisations = [
     name: "BeGambleAware",
     description: "Free, confidential advice and support around the clock. Call the National Gambling Helpline: 0808 8020 133.",
     href: "https://www.begambleaware.org/",
-    logo: "/gamble-aware.png",
+    logo: "/gamble.webp",
   },
   {
     name: "GamCare",
     description: "The UK's leading provider of information, advice and support for anyone affected by problem gambling.",
     href: "https://www.gamcare.org.uk/",
-    logo: "/gamcare.png",
+    logo: "/gamecare.svg",
   },
   {
     name: "GamStop",

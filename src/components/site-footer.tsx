@@ -31,10 +31,10 @@ const navLinks = [
 ]
 
 const partnerLogos = [
-  { src: "/gamble-aware.png",             alt: "BeGambleAware",          href: "https://www.begambleaware.org/"         },
-  { src: "/gamcare.png",                  alt: "GamCare",                href: "https://www.gamcare.org.uk/"            },
+  { src: "/gamble.webp",             alt: "BeGambleAware",          href: "https://www.begambleaware.org/"         },
+  { src: "/gamecare.svg",                  alt: "GamCare",                href: "https://www.gamcare.org.uk/"            },
   { src: "/gordon.png",                   alt: "Gambling Therapy",       href: "https://www.gamblingtherapy.org/"       },
-  { src: "/Gambling_Commission_logo.png", alt: "UK Gambling Commission", href: "https://www.gamblingcommission.gov.uk/" },
+  { src: "/commission.png", alt: "UK Gambling Commission", href: "https://www.gamblingcommission.gov.uk/" },
   { src: "/gamstop.svg",                  alt: "GamStop",                href: "https://www.gamstop.co.uk/"             },
 ]
 
