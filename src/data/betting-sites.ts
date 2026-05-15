@@ -17,6 +17,18 @@ const defaultTerms =
 
 const rawSites: Omit<BettingSite, "score">[] = [
   {
+    id: "betfred",
+    name: "Betfred Casino",
+    logo: "/betfred.webp",
+    bonus: "200 Free Spins",
+    welcomeOffer: "Stake £10 & Get 200 Free Spins",
+    terms: defaultTerms,
+    features: ["Fast Payouts", "Live Casino", "Exclusive Slots"],
+    paymentMethods: ["Visa/Mastercard", "PayPal", "Bank Transfer"],
+    link: "https://www.betfred.com/",
+    reviews: 4815,
+  },
+  {
     id: "betvictor",
     name: "BetVictor Casino",
     logo: "/betvictor.webp",
@@ -26,7 +38,7 @@ const rawSites: Omit<BettingSite, "score">[] = [
     features: ["Premium Slots", "Live Roulette", "Fast Withdrawals"],
     paymentMethods: ["Visa/Mastercard", "PayPal", "Apple Pay"],
     link: "https://www.betvictor.com/",
-    reviews: 4274,
+    reviews: 5081,
   },
   {
     id: "midnite",
@@ -38,19 +50,7 @@ const rawSites: Omit<BettingSite, "score">[] = [
     features: ["Modern Interface", "Fast Withdrawals", "Exclusive Games"],
     paymentMethods: ["Visa/Mastercard", "Skrill", "Neteller"],
     link: "https://www.midnite.com/",
-    reviews: 7051,
-  },
-  {
-    id: "betfred",
-    name: "Betfred Casino",
-    logo: "/betfred.webp",
-    bonus: "200 Free Spins",
-    welcomeOffer: "Stake £10 & Get 200 Free Spins",
-    terms: defaultTerms,
-    features: ["Fast Payouts", "Live Casino", "Exclusive Slots"],
-    paymentMethods: ["Visa/Mastercard", "PayPal", "Bank Transfer"],
-    link: "https://www.betfred.com/",
-    reviews: 5817,
+    reviews: 6137,
   },
 
   {
@@ -63,7 +63,7 @@ const rawSites: Omit<BettingSite, "score">[] = [
     features: ["UK Licensed", "Live Dealers", "500+ Slots"],
     paymentMethods: ["Visa/Mastercard", "PayPal", "Bank Transfer"],
     link: "https://boylesports.com",
-    reviews: 3094,
+    reviews: 4918,
   },
   {
     id: "ladbrokes",
@@ -75,7 +75,7 @@ const rawSites: Omit<BettingSite, "score">[] = [
     features: ["Live Casino", "Jackpot Slots", "VIP Programme"],
     paymentMethods: ["Visa/Mastercard", "PayPal", "Apple Pay"],
     link: "https://www.ladbrokes.com/",
-    reviews: 6139,
+    reviews: 5037,
   },
 ]
 
